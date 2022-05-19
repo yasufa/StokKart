@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="CartReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0a9b60f3-aa3f-473d-a2fa-3b6751f6f04e">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="stokKodu" class="java.lang.String"/>
+	<field name="stokAdi" class="java.lang.String"/>
+	<field name="stokTipi" class="java.lang.String"/>
+	<field name="birimi" class="java.lang.String"/>
+	<field name="barkodu" class="java.lang.String"/>
+	<field name="kdvTipi" class="java.lang.String"/>
+	<field name="aciklama" class="java.lang.String"/>
+	<field name="olusturmaTarihi" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="-20" y="0" width="60" height="30" uuid="00b7c0ba-9dde-4295-bd25-fc8865309175">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4f93c439-c3ab-47e8-a39b-662ba78b9a93"/>
+				</reportElement>
+				<text><![CDATA[stokKodu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="40" y="0" width="60" height="30" uuid="296b1fdf-3860-4cba-99e3-296fe9f4ce56">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3bbb69e2-b6be-4b49-891e-85128e310ebe"/>
+				</reportElement>
+				<text><![CDATA[stokAdi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="60" height="30" uuid="43b84ff4-caf4-447c-b136-e27556835b33">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5a4363ec-c19c-42e7-b466-303e33a2aec3"/>
+				</reportElement>
+				<text><![CDATA[stokTipi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="0" width="70" height="30" uuid="42804280-e6de-45f5-abc5-814ab06a7cb6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4e38661f-21d1-4af7-9906-071b074ac327"/>
+				</reportElement>
+				<text><![CDATA[birimi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="260" y="0" width="63" height="30" uuid="54a82cb4-1ba6-4cc5-9287-459c27931ff7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="caeaa204-7549-4c2f-a0e9-23dc4b10437c"/>
+				</reportElement>
+				<text><![CDATA[barkodu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="0" width="100" height="30" uuid="17a97f61-046c-45d7-a851-e3fee28148e1">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6d8c8f34-d6b7-4152-88b0-bb451b1b4a4c"/>
+				</reportElement>
+				<text><![CDATA[kdvTipi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="440" y="0" width="60" height="30" uuid="d7d86d0c-b18e-47eb-8d0a-40d5da352ba1">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b96be1e8-104d-4ec2-b135-7692c8cc5f03"/>
+				</reportElement>
+				<text><![CDATA[aciklama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="0" width="75" height="30" uuid="f7fa16b3-1516-4f6f-8ab3-1dee4bc004fc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c81bd595-c0d2-4e77-8790-bac8065e0dd8"/>
+				</reportElement>
+				<text><![CDATA[olusturmaTarihi]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="-20" y="20" width="60" height="30" uuid="7a1a46c5-0a03-47c9-ba2e-0c26f5eff7d4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4f93c439-c3ab-47e8-a39b-662ba78b9a93"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{stokKodu}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="20" width="60" height="30" uuid="70fbe5c4-5bb2-4f3a-962e-f4b1dc10c05e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3bbb69e2-b6be-4b49-891e-85128e310ebe"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{stokAdi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="20" width="60" height="30" uuid="e96ae55f-83ce-4ab3-b2b2-06031866bfe0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5a4363ec-c19c-42e7-b466-303e33a2aec3"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{stokTipi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="20" width="70" height="30" uuid="1fa95fad-7c4a-4e26-aeb8-f31c80f31875">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4e38661f-21d1-4af7-9906-071b074ac327"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{birimi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="20" width="63" height="30" uuid="bd40644a-8d0b-4f83-bdbb-d6b1a9b40531">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="caeaa204-7549-4c2f-a0e9-23dc4b10437c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{barkodu}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="20" width="100" height="30" uuid="43abb776-cad7-4779-9670-7fee508ba21c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6d8c8f34-d6b7-4152-88b0-bb451b1b4a4c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{kdvTipi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="20" width="60" height="30" uuid="49db0bc4-f0d4-4019-89f6-5598d5690485">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b96be1e8-104d-4ec2-b135-7692c8cc5f03"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{aciklama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="20" width="65" height="30" uuid="58c540c0-a30f-4a8e-a049-73175801ddc5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c81bd595-c0d2-4e77-8790-bac8065e0dd8"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{olusturmaTarihi}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

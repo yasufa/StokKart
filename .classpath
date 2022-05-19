@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="images"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/jxl-2.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/jar_files (1)/commons-beanutils-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/jar_files (1)/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/jar_files (1)/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/jar_files (1)/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/jar_files (1)/jasperreports-6.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/javax.activation-1.2.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/yusuf/OneDrive/Masaüstü/weblaf-ui-1.28.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
